@@ -9,3 +9,6 @@ console.log(b); //undefined
 
 b = 2;
 console.log(b);
+
+//변수 이름은 저장된 값을 잘 나타내도록 짓는다.
+// 의미있는 이름이 좋음
