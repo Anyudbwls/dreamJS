@@ -12,9 +12,9 @@ let apple = {
 };
 console.log(apple);
 
-let orange = apple;
+let orange = apple; //참조값이 복사됨
 console.log(apple);
 
-orange.name = '오렌지';
+orange.name = '오렌지'; // 참조값이 복사된 상테이기때문에 name을 바꿔주면 apple의 값도 바뀜
 console.log(apple);
 console.log(orange);
