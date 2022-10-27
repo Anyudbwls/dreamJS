@@ -20,3 +20,33 @@ console.log(typeof variable);
 
 variable = Symbol();
 console.log(typeof variable);
+
+console.clear();
+let primitiveNum = 123;
+primitiveNum = 234;
+console.log(primitiveNum); // 234
+
+const primitiveStr = '메모리안에 저장됨';
+console.log(primitiveStr);
+
+let objWho = {
+  name: 'yujin',
+  age: 24,
+  sex: 'female',
+};
+
+console.log(objWho);
+console.log(objWho.name);
+console.log(objWho.age);
+
+const objFruit = {
+  apple: 'red',
+  banana: 3,
+  orange: '🍊',
+};
+
+console.log(objFruit);
+
+objFruit.apple = '🍏';
+console.log(objFruit.apple);
+console.log(objFruit);
