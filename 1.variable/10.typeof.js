@@ -22,11 +22,15 @@ variable = Symbol();
 console.log(typeof variable);
 
 console.clear();
+
+// 복습
+
 let primitiveNum = 123;
 primitiveNum = 234;
 console.log(primitiveNum); // 234
 
 const primitiveStr = '메모리안에 저장됨';
+
 console.log(primitiveStr);
 
 let objWho = {
