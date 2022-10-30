@@ -15,7 +15,8 @@ function calculator(a, b, action) {
 }
 
 const cal = (a, b, action) => action(a, b);
-const addResult = cal(1, 2, add);
+
+const addResult = cal(1, 2, add); //레퍼런스 (참조)전달
 const multiplyResult = cal(5, 10, multiply);
 
 console.log(addResult, multiplyResult);

@@ -18,7 +18,7 @@ console.log(add(1, 2));
 
 //생성자 함수 const object =new Function();
 
-//IIF(Immediately Function Expressions)
+//IIF(Immediately-Invoked Function Expressions)
 //즉각적으로 표현할떄
 (function run() {
   console.log('😆');

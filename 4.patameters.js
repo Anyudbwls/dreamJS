@@ -19,3 +19,17 @@ function sum(a, b, ...numbers) {
 }
 
 sum(1, 2, 3, 4, 5, 6, 7, 8);
+
+function checkPar(num1, num2) {
+  return num1 + num2; // 3 + undefined = NaN
+}
+console.log(checkPar(3)); //숫자랑 undefined랑 더하면 숫자가 아님
+
+function parDefault(x, y) {
+  x = x || 0;
+  y = y || 0;
+
+  return x + y;
+}
+console.log(parDefault(1));
+console.log(parDefault(1, 2));
