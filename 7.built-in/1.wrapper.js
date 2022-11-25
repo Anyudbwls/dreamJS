@@ -11,3 +11,4 @@ const text = 'text'; //string 문자열 원시타입
 console.log(text);
 text.length; //String 객체
 text.trim();
+초;
