@@ -7,7 +7,7 @@ const number = 123; //number 원시타입
 console.log(number.toString());
 console.log(number); //number 원시타입
 
-const text = 'text';
+const text = 'text'; //string 문자열 원시타입
 console.log(text);
-text.length;
+text.length; //String 객체
 text.trim();
