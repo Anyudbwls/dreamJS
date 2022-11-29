@@ -2,10 +2,6 @@ const a = [1, 2, 3, 4, 5];
 
 log = console.log;
 
-function mul2(item) {
-  return item * 2;
-}
-
 log('map');
 log(
   a.map((item) => {
@@ -15,7 +11,7 @@ log(
 log();
 
 log('filter');
-log(a.filter((item) => item < 3));
+log(a.filter((item) => item <= 3));
 log();
 
 log('reduce'); //결과값 반환
@@ -57,5 +53,3 @@ log(
     .map((item) => 'b')
     .join(' ')
 );
-
-aaa[0] = 'b';
